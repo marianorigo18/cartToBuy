@@ -1,0 +1,32 @@
+
+
+.styledBtn{
+    border-radius: 10px;
+    padding:1%;
+    text-align: center;
+    background-color: cornflowerblue;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.styledBtn:hover{
+    background-color: white;
+    color:cornflowerblue;
+}
+.item .title {
+    font-weight: bold;
+}
+.item .price {
+    color: green;
+    font-weight: bold;
+}
+.item div {
+    padding: 5px 0;
+}
+.styleCart{
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    right: 15px;
+}
